@@ -1,3 +1,5 @@
+package request;
+
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
@@ -36,7 +38,7 @@ public class Homework_03 {
         //    Status Line should be HTTP/1.1 200 OK
         response.then().statusLine("HTTP/1.1 200 OK");
 
-        
+
 
 
     }
